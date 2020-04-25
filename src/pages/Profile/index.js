@@ -1,18 +1,18 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import { FiUsers, FiClock, FiTrash2, FiPower } from 'react-icons/fi';
+import { FiUsers, FiTrash2, FiPower } from 'react-icons/fi';
 import { MdSchool } from 'react-icons/md';
 import { FaMapMarkerAlt } from 'react-icons/fa';
 
 
-import { Container, Header } from './styled';
+import './profile.css';
 import logoimg from '../../assets/logo.png';
 
 export default function Profile() {
     return (
-        <Container>
-            <Header>
+        <div>
+            <header>
                 <img src={logoimg} alt="Love Job" />
                 <span>Bem vindo, Renato</span>
 
@@ -21,7 +21,7 @@ export default function Profile() {
                     <FiPower className="icon" size={18} color="#e02041" />
                 </button>
 
-            </Header>
+            </header>
 
             <h1>Todas as Vagas</h1>
 
@@ -169,6 +169,6 @@ export default function Profile() {
 
             </ul>
 
-        </Container>
+        </div>
     )
 }

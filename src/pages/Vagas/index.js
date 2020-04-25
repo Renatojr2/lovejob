@@ -5,22 +5,22 @@ import { MdSchool } from 'react-icons/md';
 import { FaMapMarkerAlt } from 'react-icons/fa';
 
 import logoimg from '../../assets/logo.png';
-import { Container, Text, Section, Header } from './styled';
+import './vagas.css';
 
 export default function NewIncidents() {
   return (
-    <Container>
-      <Section>
-        <Header>
+    <div className="caixa">
+      <section>
+        <header>
 
           <img src={logoimg} alt="Be the Hero" />
           <h2>Nome da empresa</h2>
-        </Header>
-      </Section>
+        </header>
+      </section>
 
-      <Section>
+      <section>
 
-        <Text>
+        
           <h2>AUXILIAR OPERACIONAL FRENTE DE LOJA</h2>
           <div className="box">
 
@@ -93,44 +93,44 @@ export default function NewIncidents() {
 
 
 
-        </Text>
-      </Section>
+        
+      </section>
 
-      <Section>
-        <Text>
+      <section>
+        
           <h2>Descrição</h2>
           <div className="description">
             <p>Integer dui dolor, pellentesque in euismod in, ullamcorper nec diam. Ut sit amet risus euismod, ultrices nibh quis, tempus sem. Nam tristique mauris eu diam pellentesque, ac iaculis massa molestie. Nam id porttitor elit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In bibendum ornare accumsan. Praesent condimentum eget erat et condimentum.</p>
           </div>
-        </Text>
-      </Section>
+        
+      </section>
 
-      <Section>
-        <Text>
+      <section>
+        
           <h2>Pré-requesitos</h2>
           <div className="description">
             <p>Integer dui dolor, pellentesque in euismod in, ullamcorper nec diam. Ut sit amet risus euismod, ultrices nibh quis, tempus sem. Nam tristique mauris eu diam pellentesque, ac iaculis massa molestie. Nam id porttitor elit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In bibendum ornare accumsan. Praesent condimentum eget erat et condimentum.</p>
           </div>
-        </Text>
-      </Section>
+        
+      </section>
 
-      <Section>
-        <Text>
+      <section>
+        
           <h2>Benefícios</h2>
           <div className="description">
             <p>Integer dui dolor, pellentesque in euismod in, ullamcorper nec diam. Ut sit amet risus euismod, ultrices nibh quis, tempus sem. Nam tristique mauris eu diam pellentesque, ac iaculis massa molestie. Nam id porttitor elit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In bibendum ornare accumsan. Praesent condimentum eget erat et condimentum.</p>
           </div>
-        </Text>
-      </Section>
+        
+      </section>
 
-      <Section>
-        <Text>
+      <section>
+        
           <h2>Observações</h2>
           <div className="description">
             <p>Integer dui dolor, pellentesque in euismod in, ullamcorper nec diam. Ut sit amet risus euismod, ultrices nibh quis, tempus sem. Nam tristique mauris eu diam pellentesque, ac iaculis massa molestie. Nam id porttitor elit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In bibendum ornare accumsan. Praesent condimentum eget erat et condimentum.</p>
           </div>
-        </Text>
-      </Section>
-    </Container>
+        
+      </section>
+    </div>
   );
 }
