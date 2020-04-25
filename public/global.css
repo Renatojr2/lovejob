@@ -73,9 +73,7 @@
             transition: opacity 0.2s;
         }
 
-        svg {
-            margin-right: 8px;
-        }
+     
 
         .back-link:hover {
             opacity: 0.8;

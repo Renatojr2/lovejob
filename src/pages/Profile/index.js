@@ -30,7 +30,7 @@ export default function Profile() {
                     <Link to="/vagas">
                         <strong>AUXILIAR OPERACIONAL FRENTE DE LOJA</strong>
 
-                            <div className="group">
+                            <div className="groupSection">
                                 <FiUsers className="icon" size={25} color="#2ab3b9" />
                                 <div className="section">
                                     <p>Numero de vagas</p>
@@ -38,7 +38,7 @@ export default function Profile() {
                                 </div>
                             </div>
 
-                            <div className="group">
+                            <div className="groupSection">
                                 <MdSchool className="icon" size={25} color="#2ab3b9" />
                                 <div className="section">
                                     <p>Escolaridade</p>
@@ -46,7 +46,7 @@ export default function Profile() {
                                 </div>
                             </div>
 
-                            <div className="group">
+                            <div className="groupSection">
                                 <FaMapMarkerAlt className="icon" size={25} color="#2ab3b9" />
                                 <div className="section">
                                     <p>Cidade</p>
@@ -67,7 +67,7 @@ export default function Profile() {
                 <li>
                     <Link to="/vagas">
                         <strong>AUXILIAR OPERACIONAL FRENTE DE LOJA</strong>
-                        <div className="group">
+                        <div className="groupSection">
                             <FiUsers className="icon" size={25} color="#2ab3b9" />
                             <div className="section">
                                 <p>Numero de vagas</p>
@@ -75,7 +75,7 @@ export default function Profile() {
                             </div>
                         </div>
 
-                        <div className="group">
+                        <div className="groupSection">
                             <MdSchool className="icon" size={25} color="#2ab3b9" />
                             <div className="section">
                                 <p>Escolaridade</p>
@@ -83,7 +83,7 @@ export default function Profile() {
                             </div>
                         </div>
 
-                        <div className="group">
+                        <div className="groupSection">
                             <FaMapMarkerAlt className="icon" size={25} color="#2ab3b9" />
                             <div className="section">
                                 <p>Cidade</p>
@@ -102,7 +102,7 @@ export default function Profile() {
                 <li>
                     <Link to="/vagas">
                         <strong>AUXILIAR OPERACIONAL FRENTE DE LOJA</strong>
-                        <div className="group">
+                        <div className="groupSection">
                             <FiUsers className="icon" size={25} color="#2ab3b9" />
                             <div className="section">
                                 <p>Numero de vagas</p>
@@ -110,7 +110,7 @@ export default function Profile() {
                             </div>
                         </div>
 
-                        <div className="group">
+                        <div className="groupSection">
                             <MdSchool className="icon" size={25} color="#2ab3b9" />
                             <div className="section">
                                 <p>Escolaridade</p>
@@ -118,7 +118,7 @@ export default function Profile() {
                             </div>
                         </div>
 
-                        <div className="group">
+                        <div className="groupSection">
                             <FaMapMarkerAlt className="icon" size={25} color="#2ab3b9" />
                             <div className="section">
                                 <p>Cidade</p>
@@ -137,7 +137,7 @@ export default function Profile() {
                 <li>
                     <Link to="/vagas">
                         <strong>AUXILIAR OPERACIONAL FRENTE DE LOJA</strong>
-                        <div className="group">
+                        <div className="groupSection">
                             <FiUsers className="icon" size={25} color="#2ab3b9" />
                             <div className="section">
                                 <p>Numero de vagas</p>
@@ -145,7 +145,7 @@ export default function Profile() {
                             </div>
                         </div>
 
-                        <div className="group">
+                        <div className="groupSection">
                             <MdSchool className="icon" size={25} color="#2ab3b9" />
                             <div className="section">
                                 <p>Escolaridade</p>
@@ -153,7 +153,7 @@ export default function Profile() {
                             </div>
                         </div>
 
-                        <div className="group">
+                        <div className="groupSection">
                             <FaMapMarkerAlt className="icon" size={25} color="#2ab3b9" />
                             <div className="section">
                                 <p>Cidade</p>

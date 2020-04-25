@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { FiUsers, FiClock } from 'react-icons/fi';
 import { MdSchool } from 'react-icons/md';
 import { FaMapMarkerAlt } from 'react-icons/fa';
@@ -9,19 +8,20 @@ import './vagas.css';
 
 export default function NewIncidents() {
   return (
-    <div className="caixa">
-      <section>
-        <header>
 
-          <img src={logoimg} alt="Be the Hero" />
-          <h2>Nome da empresa</h2>
+    <>
+      <section>
+        <header className="cabecalho">
+
+          <img src={logoimg} alt="Love Job" />
+          <h2 className="empresa">Nome da empresa</h2>
         </header>
       </section>
 
       <section>
 
         
-          <h2>AUXILIAR OPERACIONAL FRENTE DE LOJA</h2>
+          <h2 className="titulo">AUXILIAR OPERACIONAL FRENTE DE LOJA</h2>
           <div className="box">
 
 
@@ -34,17 +34,17 @@ export default function NewIncidents() {
                 </div>
                 <div className="goup">
                   <p>Pretenção salarial</p>
-                  <span>R$ 2000,00</span>
+                  <p className="subtitulo">R$ 2000,00</p>
                 </div>
               </div>
 
               <div className="container">
                 <div className="content">
-                  <FiUsers className="icon" size={25} color="#eee" />
+                  <span><FiUsers size={25} color="#eee" /></span>
                 </div>
                 <div className="goup">
                   <p>Número de vagas</p>
-                  <span>2</span>
+                  <p className="subtitulo">2</p>
                 </div>
 
               </div>
@@ -58,42 +58,39 @@ export default function NewIncidents() {
 
               <div className="container">
                 <div className="content">
-                  <FiClock className="icon" size={25} color="#eee" />
+                  <span><FiClock className="icon" size={25}  color="#eee" /></span>
                 </div>
                 <div className="goup">
                   <p>Horário de trabalho</p>
-                  <span>de 08:00 às 18:00</span>
+                  <p className="subtitulo">de 08:00 às 18:00</p>
                 </div>
               </div>
 
               <div className="container">
                 <div className="content">
-                  <MdSchool className="icon" size={25} color="#eee" />
+                 <span><MdSchool className="icon" size={25} color="#eee" /></span> 
                 </div>
                 <div className="goup">
                   <p>Escolaridade</p>
-                  <span>Ensino médio completo</span>
+                  <p className="subtitulo">Ensino médio completo</p>
                 </div>
               </div>
 
 
               <div className="container">
                 <div className="content">
-                  <FaMapMarkerAlt className="icon" size={25} color="#eee" />
+                 <span><FaMapMarkerAlt className="icon" size={25} color="#eee" /></span> 
                 </div>
                 <div className="goup">
                   <p>Cidade</p>
-                  <span>Leopoldina-MG</span>
+                  <p className="subtitulo">Leopoldina-MG</p>
                 </div>
               </div>
+              
             </div>
 
             {/*grupo 2 fim*/}
           </div>
-
-
-
-        
       </section>
 
       <section>
@@ -131,6 +128,6 @@ export default function NewIncidents() {
           </div>
         
       </section>
-    </div>
+      </>
   );
 }

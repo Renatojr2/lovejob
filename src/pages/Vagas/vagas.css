@@ -1,13 +1,14 @@
 
 
-div.caixa {
-    flex-direction: column;
-    width: 100%;
-    max-width: 1120px;
-    height: 100vh;
-    margin: auto;
+
+  .cabecalho {
     display: flex;
+    align-items: center;
+    font-size: 30px;
+    justify-content: start;
   }
+
+
     
 
 
@@ -19,8 +20,7 @@ section {
     background: #f0f0f5;
     box-shadow: 0 0 100px rgba(0, 0, 0,0.1);
     border-radius: 8px;
-  
-
+    border: 1px solid #ccc;
   }
 
 
@@ -28,7 +28,7 @@ section {
 
 
 
-  h2 {
+  h2.titulo {
     font-size: 20px;
     border-bottom: 1px solid #ccc;
     padding: 10px;
@@ -36,29 +36,30 @@ section {
   .box {
     display: flex;
     flex-direction: column;
+    margin-left: -50px;
   }
     .sectionGroup{
     display: flex;
-    flex-direction: row;
+   
     
   }
 
   .sectionGroup2{
     display: flex;
     align-items: center;
-    flex-direction: row;
+    width: 10000px;
+   
     
   }
     
  
 
 div.container {
-  margin: 60px;
   display: flex;
   align-items: center;
-
- 
+  margin-right: -50px;
 }
+
   
 
 
@@ -66,18 +67,16 @@ div.container {
     background: #2ab3b9;
     width: 70px;
     height: 70px;
-    margin-right: 10px;
-
+    border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-
-    border-radius: 50%;
   }
 
-    .icon {
-      margin-left: 7px;
-    }
+
+
+
+  
 
     span {
       font-size: 20px;
@@ -90,6 +89,12 @@ div.container {
     font-weight: bold;
     margin-bottom: 5px;
   }
+
+  .subtitulo {
+    color: #666;
+    font-size: 13px;
+  }
+  
 
   
 
@@ -105,11 +110,7 @@ div.container {
   }
  /*fim text */
 
-header {
-  display: flex;
-  align-items: center;
-  font-size: 30px;
-}
+
   img {
     border: 1px solid #ddd;
     padding: 30px;
