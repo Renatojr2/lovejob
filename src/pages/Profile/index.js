@@ -29,71 +29,40 @@ export default function Profile() {
                 <li>
                     <Link to="/vagas">
                         <strong>AUXILIAR OPERACIONAL FRENTE DE LOJA</strong>
-                        <div className="group">
-                            <FiUsers className="icon" size={25} color="#2ab3b9" />
-                            <div className="section">
-                                <p>Numero de vagas</p>
-                                <span>2</span>
-                            </div>
-                        </div>
 
-                        <div className="group">
-                        <MdSchool className="icon" size={25} color="#2ab3b9" />
-                            <div className="section">
-                                <p>Escolaridade</p>
-                                <span>Ensino médio completo</span>
+                            <div className="group">
+                                <FiUsers className="icon" size={25} color="#2ab3b9" />
+                                <div className="section">
+                                    <p>Numero de vagas</p>
+                                    <span>2</span>
+                                </div>
                             </div>
-                        </div>
 
-                        <div className="group">
-                            <FaMapMarkerAlt className="icon" size={25} color="#2ab3b9" />
-                            <div className="section">
-                                <p>Cidade</p>
-                                <span>Leopoldina-MG</span>
+                            <div className="group">
+                                <MdSchool className="icon" size={25} color="#2ab3b9" />
+                                <div className="section">
+                                    <p>Escolaridade</p>
+                                    <span>Ensino médio completo</span>
+                                </div>
                             </div>
-                        </div>
 
+                            <div className="group">
+                                <FaMapMarkerAlt className="icon" size={25} color="#2ab3b9" />
+                                <div className="section">
+                                    <p>Cidade</p>
+                                    <span>Leopoldina-MG</span>
+                                </div>
+                            </div>
                      
+
+
 
                         <button type="button">
                             <FiTrash2 size={20} color="#a8a8b3" style={{ marginLeft: "auto" }} />
                         </button>
                     </Link>
                 </li>
-                <li>
-                    <Link to="/vagas">
-                        <strong>AUXILIAR OPERACIONAL FRENTE DE LOJA</strong>
-                        <div className="group">
-                            <FiUsers className="icon" size={25} color="#2ab3b9" />
-                            <div className="section">
-                                <p>Numero de vagas</p>
-                                <span>2</span>
-                            </div>
-                        </div>
 
-                        <div className="group">
-                        <MdSchool className="icon" size={25} color="#2ab3b9" />
-                            <div className="section">
-                                <p>Escolaridade</p>
-                                <span>Ensino médio completo</span>
-                            </div>
-                        </div>
-
-                        <div className="group">
-                            <FaMapMarkerAlt className="icon" size={25} color="#2ab3b9" />
-                            <div className="section">
-                                <p>Cidade</p>
-                                <span>Leopoldina-MG</span>
-                            </div>
-                        </div>
-
-                     
-
-                        <button type="button">
-                            <FiTrash2 size={20} color="#a8a8b3" style={{ marginLeft: "auto" }} />
-                        </button>
-                    </Link>
-                </li>
 
                 <li>
                     <Link to="/vagas">
@@ -107,7 +76,7 @@ export default function Profile() {
                         </div>
 
                         <div className="group">
-                        <MdSchool className="icon" size={25} color="#2ab3b9" />
+                            <MdSchool className="icon" size={25} color="#2ab3b9" />
                             <div className="section">
                                 <p>Escolaridade</p>
                                 <span>Ensino médio completo</span>
@@ -122,7 +91,7 @@ export default function Profile() {
                             </div>
                         </div>
 
-                     
+
 
                         <button type="button">
                             <FiTrash2 size={20} color="#a8a8b3" style={{ marginLeft: "auto" }} />
@@ -142,7 +111,7 @@ export default function Profile() {
                         </div>
 
                         <div className="group">
-                        <MdSchool className="icon" size={25} color="#2ab3b9" />
+                            <MdSchool className="icon" size={25} color="#2ab3b9" />
                             <div className="section">
                                 <p>Escolaridade</p>
                                 <span>Ensino médio completo</span>
@@ -157,7 +126,42 @@ export default function Profile() {
                             </div>
                         </div>
 
-                     
+
+
+                        <button type="button">
+                            <FiTrash2 size={20} color="#a8a8b3" style={{ marginLeft: "auto" }} />
+                        </button>
+                    </Link>
+                </li>
+
+                <li>
+                    <Link to="/vagas">
+                        <strong>AUXILIAR OPERACIONAL FRENTE DE LOJA</strong>
+                        <div className="group">
+                            <FiUsers className="icon" size={25} color="#2ab3b9" />
+                            <div className="section">
+                                <p>Numero de vagas</p>
+                                <span>2</span>
+                            </div>
+                        </div>
+
+                        <div className="group">
+                            <MdSchool className="icon" size={25} color="#2ab3b9" />
+                            <div className="section">
+                                <p>Escolaridade</p>
+                                <span>Ensino médio completo</span>
+                            </div>
+                        </div>
+
+                        <div className="group">
+                            <FaMapMarkerAlt className="icon" size={25} color="#2ab3b9" />
+                            <div className="section">
+                                <p>Cidade</p>
+                                <span>Leopoldina-MG</span>
+                            </div>
+                        </div>
+
+
 
                         <button type="button">
                             <FiTrash2 size={20} color="#a8a8b3" style={{ marginLeft: "auto" }} />
